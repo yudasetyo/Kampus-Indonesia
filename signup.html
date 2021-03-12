@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Halaman Signup</title>
+</head>
+
+<body>
+    <section class="container px-4 py-24 mx-auto">
+        <div class="w-full mx-auto space-y-5 sm:w-8/12 md:w-6/12 lg:w-4/12 xl:w-3/12">
+            <h1 class="text-4xl font-semibold text-center text-gray-900">Sign Up</h1>
+            <div class="pb-6 space-y-2 border-b border-gray-200">
+                <a href="#" class="w-full py-3 btn btn-icon btn-google">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="mr-1">
+                        <path d="M20.283,10.356h-8.327v3.451h4.792c-0.446,2.193-2.313,3.453-4.792,3.453c-2.923,0-5.279-2.356-5.279-5.28	c0-2.923,2.356-5.279,5.279-5.279c1.259,0,2.397,0.447,3.29,1.178l2.6-2.599c-1.584-1.381-3.615-2.233-5.89-2.233	c-4.954,0-8.934,3.979-8.934,8.934c0,4.955,3.979,8.934,8.934,8.934c4.467,0,8.529-3.249,8.529-8.934	C20.485,11.453,20.404,10.884,20.283,10.356z" />
+                    </svg> Lanjutkan Dengan Google
+                </a>
+            </div>
+            <form class="space-y-4" action="/homepage.html">
+                <label class="block">
+                    <span class="block mb-1 text-xs font-medium text-gray-700">
+                        Nama
+                    </span>
+                    <input
+                        class="form-input"
+                        type="text"
+                        placeholder="Nama Lengkap Anda"
+                        required
+                    />
+                </label>
+                <label class="block">
+                    <span class="block mb-1 text-xs font-medium text-gray-700">
+                        Email
+                    </span>
+                    <input
+                        class="form-input"
+                        type="email"
+                        placeholder="Cth: james@bond.com"
+                        inputmode="email"
+                        required
+                    />
+                </label>
+                <label class="block">
+                    <span class="block mb-1 text-xs font-medium text-gray-700">
+                        Buat Password
+                    </span>
+                    <input
+                        class="form-input"
+                        type="password"
+                        placeholder="••••••••"
+                        required
+                    />
+                </label>
+                <input type="submit" class="w-full btn btn-primary btn-lg" value="Sign Up" />
+            </form>
+            <p class="my-8 text-xs font-medium text-center text-gray-700">
+                By clicking "Sign Up" you agree to our
+                <a href="#" class="text-blue-accent-700 hover:text-teal-accent-400">
+                    Terms of Service
+                </a> and
+                <a href="#" class="text-blue-accent-700 hover:text-teal-accent-400">
+                    Privacy Policy
+                </a>.
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>
